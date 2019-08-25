@@ -43,7 +43,7 @@ public class HomeController {
 		
 		List<VO> testList = dao.selectTestList();
 		
-		logger.info("testVO toString {}.",testList);
+		logger.info("DBAccess Test Success testVO toString {}.",testList);
 		
 		//logger.info("testVO toString {}.", testList.get(0).toString());
 		
