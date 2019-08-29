@@ -47,9 +47,7 @@ public class HomeController {
 		logger.info("DBAccess Test Success testVO toString {}.",testList);
 		
 		//logger.info("testVO toString {}.", testList.get(0).toString());
-		
-		
-		
+
 		return "home";
 	}
 	
