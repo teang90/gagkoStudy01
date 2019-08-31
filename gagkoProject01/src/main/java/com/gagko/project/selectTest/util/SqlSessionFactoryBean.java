@@ -12,7 +12,7 @@ public class SqlSessionFactoryBean {
 	static {
 		try {
 			if (sessionFactory ==null) {
-				Reader reader = Resources.getResourceAsReader("");
+				Reader reader = Resources.getResourceAsReader("servlet-context.xml");
 				sessionFactory = new SqlSessionFactoryBuilder().build(reader);
 			}
 		} catch (Exception e) {
