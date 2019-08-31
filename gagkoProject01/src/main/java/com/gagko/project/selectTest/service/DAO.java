@@ -24,7 +24,7 @@ public class DAO {
 	}
 	
 	public List<VO> selectTestList(){
-		return sqlSession.selectList("selectTestList");
+		return sqlSession.selectList("testMapper.selectTestList");
 	}
 	
 }

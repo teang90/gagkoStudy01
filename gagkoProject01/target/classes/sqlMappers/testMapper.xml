@@ -3,7 +3,7 @@
 
 <mapper namespace="testMapper">
 	
-	<select id="selectTestList">
+	<select id="selectTestList" resultType="Map">
 		SELECT
 			*
 		FROM
