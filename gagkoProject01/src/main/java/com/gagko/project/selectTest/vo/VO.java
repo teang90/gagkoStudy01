@@ -5,6 +5,8 @@ public class VO {
 	int testPkey 	 ;
 	String testName  ;
 	String testPhone ;
+	
+	
 	public int getTestPkey() {
 		return testPkey;
 	}
