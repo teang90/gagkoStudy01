@@ -32,6 +32,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
+		//Hongju
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -46,9 +47,7 @@ public class HomeController {
 		logger.info("DBAccess Test Success testVO toString {}.",testList);
 		
 		//logger.info("testVO toString {}.", testList.get(0).toString());
-		
-		
-		
+
 		return "home";
 	}
 	
